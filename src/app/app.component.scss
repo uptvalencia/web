@@ -1,0 +1,17 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.carousel-caption {
+  background-color: rgba(156, 115, 65, 0.50);
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: left;
+  width: 40%;
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
