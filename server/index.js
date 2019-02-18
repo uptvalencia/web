@@ -10,10 +10,10 @@ app.set('host', '192.168.1.100');
 
 //Middlewares
 app.use(morgan('dev'));
-//app.use(express.json);
+app.use(express.static('../dist/web-uptvalencia'));
 
 // Routes
- app.use(require('./routes/index'));
+// app.use(require('./routes/index'));
  
 //Starting on Server
 app.listen(app.get('port'), app.get('host'), () => {
